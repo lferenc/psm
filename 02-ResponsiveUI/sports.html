@@ -1,0 +1,53 @@
+<html>
+    <head>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1>Zapisy na zajęcia sportowe</h1>
+        </div>
+            <form>
+                <div class="form-group">
+                    <label for="Name">Imię:</label>
+                    <input type="text" id="Name" name="Name"/>
+                </div>
+                <div class="form-group">
+                    <label for="Surname">Nazwisko:</label>
+                    <input type="text" id="Surname" name="Surname"/>
+                </div>                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="radio" id="Student" value="student"  name="status"> Student
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="radio"  name="status" id="Pracownik" value="Pracownik"> Pracownik
+                    </label>
+                </div>
+        
+                <div class="form-group">
+                    <label for="sel1">Select list:</label>
+                    <select class="form-control" id="sel1">
+                      <option>Badminton</option>
+                      <option>Siatkówka</option>
+                      <option>Basen</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Uwagi:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Zarejestruj </button>
+                </div>
+            </form>
+        
+    </body>
